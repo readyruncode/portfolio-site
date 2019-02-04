@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
+// **** Fonts **** //
+%anonymous-font {
+	font-family: 'Anonymous Pro', monospace;
+}
+
+%avenir-font-heavy {
+	font-family: 'Avenir Heavy';
+}
+
+%avenir-font-light {
+	font-family: 'Avenir Light';
+}
+
+%monaco-font {
+	font-family: 'Monaco', monospace;
+}
+// **** Margins, Paddings **** //
+%zero-margin-zero-padding {
+	margin: 0;
+	padding: 0;
+}

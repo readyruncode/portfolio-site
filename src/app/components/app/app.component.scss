@@ -1,0 +1,52 @@
+@import '~src/scss/default-styles';
+
+#start, #projects, #about {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	z-index: 10;
+	width: 100%;
+}
+
+h1 {
+	@extend %zero-margin-zero-padding;
+	@extend %avenir-font-heavy;
+	color: $text-base-color;
+	font-size: 50px;
+	text-transform: uppercase;
+
+	.primary-color {
+		color: $primary-color;
+	}
+}
+
+// .site-container {
+// 	@extend %zero-margin-zero-padding;
+// 	margin: 15px;
+// 	display: flex;
+// 	flex-flow: column;
+
+// 	.flex-container {
+// 		display: flex;
+
+// 		.console-container {
+// 			border-right: 2px solid #707070;
+// 			width: 50%;
+// 			max-width: 500px;
+// 			min-width: 285px;
+// 		}
+	
+// 		.content-container {
+// 			width: 100%;
+// 			padding-left: 20px;
+// 			padding-right: 20px;
+// 		}
+// 	}
+// }

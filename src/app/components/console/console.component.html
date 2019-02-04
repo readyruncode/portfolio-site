@@ -1,0 +1,14 @@
+<div class="console-container">
+	<div class="console-header">
+		<span><br>**** READY. RUN. CODE. ****<br>v. {{ consoleVersion }} est. 2019</span>
+	</div>
+	<div class="console-status">
+		<span>{{ status }}</span>
+	</div>
+	<div class="prompt-container">
+		<span class="prompt-character">> </span>
+		<input type="text" class="console-input" #console (keyup.enter)="onEnter(console.value)" (keydown.backspace)="onBackSpace(console.value)" [(ngModel)]="input" autofocus autocomplete="off" autocorrect="off" autocapitalize="none" />
+	</div>
+	
+	<div class="console-output" [innerHTML]="output"></div>
+</div>
