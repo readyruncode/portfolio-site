@@ -1,10 +1,14 @@
 @import '~src/scss/default-styles';
 
-#start, #projects, #about {
+#start, #projects, #about, #contact {
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.header-container {
+	width: 100%;
 }
 
 .sticky {
@@ -26,6 +30,21 @@ h1 {
 		color: $primary-color;
 	}
 }
+
+:target {
+	display: block;
+	position: relative;
+	top: -500px;
+	visibility: hidden;
+}
+
+// .projects-anchor {
+// 	// display: block;
+// 	// height: 90px;
+// 	// padding-top: 100px;
+// 	// margin-top: -100px;
+// 	// margin: -90px 0 0;
+// }
 
 // .site-container {
 // 	@extend %zero-margin-zero-padding;

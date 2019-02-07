@@ -1,34 +1,23 @@
 <!-- <div class="site-container"> -->
+<app-menu [isToggled]="isMenuToggled" (menuToggle)="toggleMenu()"></app-menu>
 
 <div id="start">
-	<div #stickyHeader [class.sticky]="isSticky">
-		<app-header [isSticky]="isSticky"></app-header>
+	<div #stickyHeader [class.sticky]="isSticky" class="header-container">
+		<app-header [isSticky]="isSticky" (menuToggle)="toggleMenu()"></app-header>
 	</div>
 </div>
-
-
 
 <div id="projects">
+	<a id="projects-anchor"></a>
 	<app-projects></app-projects>
 </div>
+
 <div id="about">
+	<a id="#about-anchor"></a>
 	<app-about></app-about>
 </div>
+
 <div id="contact">
-
+	<a id="#contact-anchor"></a>
+	<p>Contact</p>
 </div>
-	
-
-
-
-
-<!-- <div class="flex-container">
-		<div class="console-container">
-			<app-console></app-console>
-		</div> 
-		<div class="content-container">
-			<router-outlet></router-outlet>
-		</div>
-	</div>
-	-->
-<!-- </div>  -->

@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
-
 import { AppComponent } from './components/app/app.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ConsoleComponent } from './components/console/console.component';
@@ -12,13 +11,14 @@ import { BioComponent } from './components/pages/bio/bio.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { ProjectsComponent } from './components/pages/projects/projects.component';
+import { MenuComponent } from './components/menu/menu.component';
 
-const appRoutes: Routes = [
-	{ path: '', component: HomeComponent },
-	{ path: 'about', component: AboutComponent },
-	{ path: 'bio', component: BioComponent },
-	{ path: 'projects', component: ProjectsComponent },
-];
+// const appRoutes: Routes = [
+// 	{ path: '', component: HomeComponent },
+// 	{ path: 'about', component: AboutComponent },
+// 	{ path: 'bio', component: BioComponent },
+// 	{ path: 'projects', component: ProjectsComponent },
+// ];
 
 @NgModule({
 	declarations: [
@@ -29,14 +29,15 @@ const appRoutes: Routes = [
 		BioComponent,
 		HomeComponent,
 		ProjectCardComponent,
-		ProjectsComponent
+		ProjectsComponent,
+		MenuComponent
 	],
 	imports: [
 		BrowserModule,
-		RouterModule.forRoot(
-			appRoutes,
-			{ enableTracing: true } // Debugging purposes only
-		),
+		// RouterModule.forRoot(
+		// 	appRoutes,
+		// 	{ enableTracing: true } // Debugging purposes only
+		// ),
 		FormsModule
 	],
 	providers: [],

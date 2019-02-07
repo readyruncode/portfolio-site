@@ -11,6 +11,7 @@ export class AppComponent implements AfterViewInit {
 
 	public isSticky = false;
 	elementPosition: any;
+	public isMenuToggled = false;
 
 	// public currentContent = '';
 
@@ -27,5 +28,10 @@ export class AppComponent implements AfterViewInit {
 		} else {
 			this.isSticky = false;
 		}
+	}
+
+	public toggleMenu() {
+		console.log('togglemenu', event);
+		this.isMenuToggled = !this.isMenuToggled;
 	}
 }
