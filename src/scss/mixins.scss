@@ -21,3 +21,43 @@
 	margin: 0;
 	padding: 0;
 }
+
+// iPhone SE - min 320px
+// iPhone - min 375px
+// iPhone Plus - min 414px
+
+$iphone-se-width: 320px; // 320 - 568
+$iphone-width: 375px; // 375 - 667
+$iphone-plus-width: 414px; // 414 - 736
+$ipad-width: 768px; // 768 - 1024
+$desktop-width: 1024px; // 1024 - 2160
+
+@mixin iphone-se {
+	@media (min-width: 320px) and (max-width: 374px) {
+		@content;
+	}
+}
+
+@mixin iphone {
+	@media (min-width: 375px) and (max-width: 413px) {
+		@content;
+	}
+}
+
+@mixin iphone-plus {
+	@media (min-width: 414px) and (max-width: 767px) {
+		@content;
+	}
+}
+
+@mixin ipad {
+	@media (min-width: 768px) and (max-width: 1023px) {
+    	@content;
+  	}
+}
+
+@mixin desktop {
+  	@media (min-width: #{$desktop-width}) {
+    	@content;
+  	}
+}

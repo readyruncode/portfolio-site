@@ -5,6 +5,22 @@
 	align-items: center;
 	background-color: $background-color;
 
+	@include iphone-se {
+		padding: 10px 5px 5px 5px;
+	}
+
+	@include iphone {
+		padding: 10px 5px 5px 5px;
+	}
+
+	@include iphone-plus {
+		padding: 10px 5px 5px 5px;
+	}
+
+	@include ipad {
+		padding: 10px 5px 5px 5px;
+	}
+
 	h1 {
 		@extend %zero-margin-zero-padding;
 		@extend %avenir-font-heavy;
@@ -22,6 +38,18 @@
 			text-decoration: none;
 			color: $text-base-color;
 		}
+
+		@include iphone-se {
+			font-size: 25px;
+		}
+
+		@include iphone {
+			font-size: 30px;
+		}
+
+		@include iphone-plus {
+			font-size: 35px;
+		}
 	}
 	
 	img {
@@ -34,27 +62,3 @@
 		}
 	}
 }
-
-
-
-// .badge {
-// 	border-radius: 50%;
-// 	width: 11px;
-// 	height: 11px;
-// 	margin-left: 5px;
-// 	min-width: 11px;
-
-	// &.red {
-	// 	background-color: $red-color;
-	// }
-
-	// &.yellow {
-	// 	background-color: $yellow-color;
-	// }
-
-	// &.green {
-	// 	background-color: $green-color;
-	// 	margin-right: 10px;
-	// }
-// }
-

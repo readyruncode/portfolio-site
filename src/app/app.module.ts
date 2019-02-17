@@ -7,11 +7,11 @@ import { AppComponent } from './components/app/app.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ConsoleComponent } from './components/console/console.component';
 import { HeaderComponent } from './components/header/header.component';
-import { BioComponent } from './components/pages/bio/bio.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
-import { ProjectsComponent } from './components/pages/projects/projects.component';
+import { PortfolioComponent } from './components/pages/portfolio/portfolio.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
 
 // const appRoutes: Routes = [
 // 	{ path: '', component: HomeComponent },
@@ -25,11 +25,11 @@ import { MenuComponent } from './components/menu/menu.component';
 		AppComponent,
 		AboutComponent,
 		ConsoleComponent,
+		ContactComponent,
 		HeaderComponent,
-		BioComponent,
 		HomeComponent,
 		ProjectCardComponent,
-		ProjectsComponent,
+		PortfolioComponent,
 		MenuComponent
 	],
 	imports: [

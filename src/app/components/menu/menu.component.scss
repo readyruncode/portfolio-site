@@ -11,8 +11,6 @@
 	width: 250px;
 	z-index: 20;
 	left: -251px;
-	// animation-name: menu;
-	// animation-duration: 1s;
 	transition: all 0.25s ease;
 
 	.close-menu-button {
@@ -32,10 +30,6 @@
 	}
 
 	&.slide-in {
-		// @keyframes menu {
-		// 	from { left: -250px; }
-		// 	to { left: 0px; }
-		// }
 		left: 0px;
 	}
 

@@ -1,1 +1,104 @@
 @import '~src/scss/default-styles';
+
+.about-container {
+	text-align: center;
+	max-width: $standard-max-width;
+
+	@include iphone-se {
+		max-width: 280px;;
+	}
+
+	@include iphone {
+		max-width: 330px;;
+	}
+
+	@include iphone-plus {
+		max-width: 360px;;
+	}
+
+	@include ipad {
+		max-width: 700px;;
+	}
+
+	h1 {
+		@extend %avenir-font-heavy;
+		color: $text-base-color;
+		text-transform: uppercase;
+
+		@include iphone-se {
+			font-size: 20px;
+		}
+
+		@include iphone {
+			font-size: 25px;
+		}
+
+		@include iphone-plus {
+			font-size: 30px;
+		}
+	}
+
+	.about-icon {
+		margin-top: 30px;
+		margin-bottom: 50px;
+
+		@include iphone-se {
+			margin: 0px;
+		}
+
+		@include iphone {
+			margin: 0px;
+			margin-bottom: 15px;
+		}
+
+		@include iphone-plus {
+			margin: 0px;
+			margin-bottom: 15px;
+		}
+	}
+
+	.about-text-header {
+		@extend %avenir-font-heavy;
+		color: $text-base-color;
+		font-size: 30px;
+
+		@include iphone-se {
+			font-size: 18px;
+		}
+
+		@include iphone {
+			font-size: 20px;
+		}
+
+		@include iphone-plus {
+			font-size: 22px;
+		}
+
+		.primary-color {
+			color: $primary-color;
+		}
+	}
+
+	.about-text {
+		@extend %avenir-font-heavy;
+		color: $text-base-color;
+		font-size: $main-body-size;
+		margin-bottom: 40px;
+		text-align: left;
+
+		@include iphone-se {
+			font-size: 12px;
+			margin-bottom: 10px;
+		}
+
+		@include iphone {
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+
+		@include iphone-plus {
+			font-size: 16px;
+			margin-bottom: 10px;
+		}
+	}
+}

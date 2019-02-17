@@ -18,7 +18,6 @@ export class HeaderComponent implements OnInit {
 	}
 
 	public onClickHamburger() {
-		console.log('Clicked menu!');
 		// this._isMenuToggled = !this._isMenuToggled;
 		this.menuToggle.emit();
 	}
