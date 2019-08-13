@@ -1,21 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+// @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+// @import url('https://fonts.googleapis.com/css?family=Rubik');
+
+// @import url('https://fonts.googleapis.com/css?family=Roboto');
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
 
 // **** Fonts **** //
-%anonymous-font {
-	font-family: 'Anonymous Pro', monospace;
+// %anonymous-font {
+// 	font-family: 'Anonymous Pro', monospace;
+// }
+
+%font-heavy {
+	// font-family: 'Avenir Heavy', sans-serif;
+	// font-family: 'Montserrat', sans-serif;
+	font-family: 'Georgia', serif;
+	font-weight: bolder;
 }
 
-%avenir-font-heavy {
-	font-family: 'Avenir Heavy';
-}
-
-%avenir-font-light {
-	font-family: 'Avenir Light';
+%font-light {
+	// font-family: 'Avenir Light', sans-serif;
+	// font-family: 'Roboto', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 %monaco-font {
 	font-family: 'Monaco', monospace;
 }
+
+%section-header {
+	color: $text-base-color;
+
+}
+
+%primary-color {
+	color: $primary-color;
+}
+
 // **** Margins, Paddings **** //
 %zero-margin-zero-padding {
 	margin: 0;

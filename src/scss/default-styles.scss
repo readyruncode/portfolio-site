@@ -9,9 +9,35 @@ html, body {
 
 body {
 	@extend %zero-margin-zero-padding;
+}
 
-	h1 {
-		color: $text-base-color;
-		@extend %avenir-font-heavy;
+.section-header {
+	@extend %font-heavy;
+	@extend %section-header;
+	text-transform: uppercase;
+	margin-top: 0px;
+
+	.primary-color {
+		@extend %primary-color;
 	}
+
+	// 	@include iphone-se {
+	// 		font-size: 20px;
+	// 	}
+
+	// 	@include iphone {
+	// 		font-size: 25px;
+	// 	}
+
+	// 	@include iphone-plus {
+	// 		font-size: 30px;
+	// 	}
+}
+
+.paragraph {
+	@extend %font-light;
+	line-height: 25px;
+	color: $text-base-color;
+	font-size: $main-body-size;
+	text-align: left;
 }
