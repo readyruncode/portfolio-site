@@ -1,11 +1,39 @@
-<div class="project-card-container">
-	
-	<div class="project-card-content">
-		<div class="title">{{project.name}}</div>
-		<!-- <div class="image">
-			<img src="{{project.imageUrl}}" />
-		</div> -->
-		<div class="horisontal-divider"></div>
-		<div class="description">{{project.description}}</div>
+<div [ngClass]="{ 'no-bottom-margin': isLast }" class="project-card-container">
+	<div class="portfolio-card-image-container">
+		<img src="assets/screenshots/{{project.screenshotUrl}}" />
+	</div>
+	<div class="portfolio-card-content">
+		<div class="portfolio-card-title">
+			{{project.title}}
+		</div>
+		<div class="portfolio-card-description">
+			<p class="paragraph">
+				{{project.description}}
+			</p>
+			<h3 class="role-header">What I did</h3>
+			<p class="paragraph">
+				{{project.role}}
+			</p>
+			<p class="paragraph">
+				<span *ngFor="let tech of project.techniques" class="technique-badge">
+					{{tech}}
+				</span>
+			</p>
+			<h3 class="attribution-header">Find out more</h3>
+			<div class="attribution-container">
+				<a *ngFor="let link of project.links" href="{{link.url}}" class="paragraph attribution-link" target="_blank">
+					{{link.title}}
+				</a>
+			</div>
+			<!-- <h4 class="downloads-header">Downloads</h4> -->
+			<div class="portfolio-card-app-store-badges">
+				<div *ngFor="let badge of project.appStoreBadges" class="app-store-badge-container">
+					<a href="{{badge.url}}" target="_blank">
+						<img src="assets/icons/app-store-badge-ios.svg" />
+					</a>
+					<span *ngIf="project.appStoreBadges.length > 1" class="badge-title">{{badge.title}}</span>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
