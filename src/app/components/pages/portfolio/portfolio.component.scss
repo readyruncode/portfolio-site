@@ -3,6 +3,7 @@
 .portfolio-container {
 	text-align: center;
 	max-width: $standard-max-width;
+	margin: 0 auto;
 
 	@include iphone-se {
 		max-width: 280px;
@@ -18,24 +19,6 @@
 
 	@include ipad {
 		max-width: 700px;
-	}
-
-	h1 {
-		color: $text-base-color;
-		@extend %avenir-font-heavy;
-		text-transform: uppercase;
-
-		@include iphone-se {
-			font-size: 20px;
-		}
-
-		@include iphone {
-			font-size: 25px;
-		}
-
-		@include iphone-plus {
-			font-size: 30px;
-		}
 	}
 
 	.portfolio-icon {
@@ -59,6 +42,7 @@
 
 	.portfolio-card-container {
 		display: flex;
+		flex-flow: column;
 
 		@include iphone-se {
 			flex-flow: column;
@@ -68,96 +52,8 @@
 			flex-flow: column;
 		}
 
-		.portfolio-card-image-container {
-			width: 30%;
-
-			@include iphone-se {
-				align-self: center;
-				width: 80%;
-			}
-
-			@include iphone {
-				align-self: center;
-				width: 80%;
-			}
-
-			@include iphone-plus {
-				width: 100%;
-			}
-
-			img {
-				width: 100%;
-			}
-		}
-
-		.portfolio-card-content {
-			width: 100%;
-			padding-left: 40px;
-
-			@include iphone-se {
-				padding-left: 0px;
-			}
-
-			@include iphone {
-				padding-left: 0px;
-			}
-
-			@include iphone-plus {
-				padding-left: 10px;
-			}
-
-			.portfolio-card-title {
-				width: 100%;
-				@extend %avenir-font-heavy;
-				color: $primary-color;
-				font-size: 50px;
-				text-align: left;
-
-				@include iphone-se {
-					font-size: 18px;
-				}
-
-				@include iphone {
-					font-size: 20px;
-				}
-
-				@include iphone-plus {
-					font-size: 22px;
-				}
-			}
-
-			.portfolio-card-description {
-				width: 100%;
-				@extend %avenir-font-heavy;
-				color: $text-base-color;
-				font-size: $main-body-size;
-				text-align: left;
-				margin-top: 15px;
-				margin-bottom: 60px;
-
-				@include iphone-se {
-					font-size: 12px;
-					margin-top: 5px;
-					margin-bottom: 20px;
-				}
-
-				@include iphone {
-					font-size: 14px;
-					margin-top: 5px;
-					margin-bottom: 20px;
-				}
-
-				@include iphone-plus {
-					font-size: 16px;
-					margin-top: 5px;
-					margin-bottom: 20px;
-				}
-			}
-
-			.portfolio-card-app-store-badges {
-				width: 100%;
-			}
-		}
+		
+		
 	}
 }
 
