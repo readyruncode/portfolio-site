@@ -9,10 +9,9 @@ import { Project } from 'src/app/models/project.model';
 export class ProjectCardComponent implements OnInit {
 
 	@Input() project: Project;
+	@Input() isLast: boolean;
 
 	constructor() { }
 
-	ngOnInit() {
-		console.log(this.project);
-	}
+	ngOnInit() { }
 }
