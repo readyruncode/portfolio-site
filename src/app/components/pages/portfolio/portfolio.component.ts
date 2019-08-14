@@ -50,18 +50,6 @@ export class PortfolioComponent implements OnInit {
 	}
 }
 
-// 2019 - Portfolio site. My designated spot on the Internet for showing off my work.
-// 		I designed, built and deployed the site.
-// 		Adobe XD, Angular, HTML, SCSS, TypeScript, GitHub Pages
-
-// 2019 - Ashes Wheels. Facilitates the process of completing orders for custom wheels from the company Ashes Wheels.
-// 		I designed and built this app for a friend's company. It was mostly just for fun and to help him out a little, but also to finally have an app deployed under my own name on the App Store.
-// 		Swift
-
-// 2014 - LinPark/SkePark/RegPark. iOS apps for parking in the cities of Linköping and Skellefteå, Sweden.
-// 		Sole iOS developer. Over the course of my 3 years at Knowit I added localization and multiple app targets for branded versions of the app, and more. 
-// 		Objective-C, Swift, MapKit, Localization, CocoaPods
-
 // 2014 - GreatRate. iOS app for measuring customer satisfaction.
 // 		Sole iOS developer. As part of my thesis project I added an offline feature to the app.
 // 		Objective-C, Core Data
@@ -69,10 +57,3 @@ export class PortfolioComponent implements OnInit {
 // 2013 - iBodyJournal. iOS app for physiotherapist entrepreneurs. Unfortunately the client has since removed the app from App Store.
 // 		I acted as sole iOS developer and built the entire app all the way from sketch to finished app. Helped publishing it on client's App Store account.
 // 		Objective-C, Core Data
-
-// 2012 - iFiske. iOS app for simplifying purchases of fishing permits for Swedish fishing. 
-// 		Together with a few fellow students I built the first version of one of Sweden's today most used fishing apps. 
-// 		Other than building the initial version of the map view I created a dynamically populated virtual fishing permit which I was particularly proud of at the time.
-// 		Objective-C, MapKit, JSON
-
-

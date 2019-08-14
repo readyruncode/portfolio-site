@@ -21,17 +21,13 @@ body {
 		@extend %primary-color;
 	}
 
-	// 	@include iphone-se {
-	// 		font-size: 20px;
-	// 	}
+	@include ipad {
+		font-size: 45px;
+	}
 
-	// 	@include iphone {
-	// 		font-size: 25px;
-	// 	}
-
-	// 	@include iphone-plus {
-	// 		font-size: 30px;
-	// 	}
+	@include ipad-pro {
+		font-size: 60px;
+	}
 }
 
 .paragraph {
@@ -40,4 +36,21 @@ body {
 	color: $text-base-color;
 	font-size: $main-body-size;
 	text-align: left;
+
+	@include iphone-se {
+		font-size: 15px;
+	}
+
+	@include iphone {
+		font-size: 16px;
+	}
+
+	@include ipad {
+		font-size: 20px;
+	}
+
+	@include ipad-pro {
+		line-height: 30px;
+		font-size: 24px;
+	}
 }

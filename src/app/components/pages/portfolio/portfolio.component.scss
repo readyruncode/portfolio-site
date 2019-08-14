@@ -6,54 +6,41 @@
 	margin: 0 auto;
 
 	@include iphone-se {
-		max-width: 280px;
+		max-width: 85%;
 	}
 
 	@include iphone {
-		max-width: 330px;
+		max-width: 85%;
 	}
 
 	@include iphone-plus {
-		max-width: 360px;
+		max-width: 80%;
 	}
 
 	@include ipad {
-		max-width: 700px;
+		max-width: 85%;
+	}
+
+	@include ipad-pro {
+		max-width: 85%;
 	}
 
 	.portfolio-icon {
 		margin-top: 30px;
 		margin-bottom: 50px;
-
-		@include iphone-se {
-			margin: 0px;
-		}
-
-		@include iphone {
-			margin: 0px;
-			margin-bottom: 15px;
-		}
-
-		@include iphone-plus {
-			margin: 0px;
-			margin-bottom: 15px;
-		}
 	}
 
 	.portfolio-card-container {
 		display: flex;
 		flex-flow: column;
 
-		@include iphone-se {
-			flex-flow: column;
-		}
+		// @include iphone-se {
+		// 	flex-flow: column;
+		// }
 
-		@include iphone {
-			flex-flow: column;
-		}
-
-		
-		
+		// @include iphone {
+		// 	flex-flow: column;
+		// }
 	}
 }
 

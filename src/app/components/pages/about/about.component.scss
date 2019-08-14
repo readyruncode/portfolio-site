@@ -3,76 +3,63 @@
 .about-container {
 	text-align: center;
 	max-width: $standard-max-width;
-
+	margin: 0 auto;
+	
 	@include iphone-se {
-		max-width: 280px;;
+		max-width: 85%;
 	}
 
 	@include iphone {
-		max-width: 330px;;
+		max-width: 85%;
 	}
 
 	@include iphone-plus {
-		max-width: 360px;;
+		max-width: 80%;
 	}
 
 	@include ipad {
-		max-width: 700px;;
+		max-width: 85%;
 	}
 
-	h1 {
-		@extend %avenir-font-heavy;
-		color: $text-base-color;
-		text-transform: uppercase;
-
-		@include iphone-se {
-			font-size: 20px;
-		}
-
-		@include iphone {
-			font-size: 25px;
-		}
-
-		@include iphone-plus {
-			font-size: 30px;
-		}
+	@include ipad-pro {
+		max-width: 85%;
 	}
 
 	.about-icon {
 		margin-top: 30px;
 		margin-bottom: 50px;
 
-		@include iphone-se {
-			margin: 0px;
-		}
+		// @include iphone-se {
+		// 	margin: 0px;
+		// }
 
-		@include iphone {
-			margin: 0px;
-			margin-bottom: 15px;
-		}
+		// @include iphone {
+		// 	margin: 0px;
+		// 	margin-bottom: 15px;
+		// }
 
-		@include iphone-plus {
-			margin: 0px;
-			margin-bottom: 15px;
-		}
+		// @include iphone-plus {
+		// 	margin: 0px;
+		// 	margin-bottom: 15px;
+		// }
 	}
 
 	.about-text-header {
-		@extend %avenir-font-heavy;
+		@extend %font-heavy;
 		color: $text-base-color;
 		font-size: 30px;
 
-		@include iphone-se {
-			font-size: 18px;
-		}
+		// @include iphone-se {
+		// 	font-size: 18px;
+		// }
 
-		@include iphone {
-			font-size: 20px;
-		}
+		// @include iphone {
+		// 	font-size: 20px;
+		// }
 
-		@include iphone-plus {
-			font-size: 22px;
-		}
+		// @include iphone-plus {
+		// 	font-size: 22px;
+		// }
 
 		.primary-color {
 			color: $primary-color;
@@ -80,25 +67,25 @@
 	}
 
 	.about-text {
-		@extend %avenir-font-heavy;
+		@extend %font-light;
 		color: $text-base-color;
 		font-size: $main-body-size;
-		margin-bottom: 40px;
+		margin-bottom: 0px;
 		text-align: left;
 
-		@include iphone-se {
-			font-size: 12px;
-			margin-bottom: 10px;
-		}
+		// @include iphone-se {
+		// 	font-size: 12px;
+		// 	margin-bottom: 10px;
+		// }
 
-		@include iphone {
-			font-size: 14px;
-			margin-bottom: 10px;
-		}
+		// @include iphone {
+		// 	font-size: 14px;
+		// 	margin-bottom: 10px;
+		// }
 
-		@include iphone-plus {
-			font-size: 16px;
-			margin-bottom: 10px;
-		}
+		// @include iphone-plus {
+		// 	font-size: 16px;
+		// 	margin-bottom: 10px;
+		// }
 	}
 }

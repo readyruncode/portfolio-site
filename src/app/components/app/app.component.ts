@@ -13,8 +13,6 @@ export class AppComponent implements AfterViewInit {
 	elementPosition: any;
 	public isMenuToggled = false;
 
-	// public currentContent = '';
-
 	ngAfterViewInit() {
 		this.elementPosition = this.menuElement.nativeElement.offsetTop;
 		console.log('elementPosition', this.elementPosition);
