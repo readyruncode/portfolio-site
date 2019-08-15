@@ -28,6 +28,11 @@ body {
 	@include ipad-pro {
 		font-size: 60px;
 	}
+
+	@include desktop {
+		font-size: 80px;
+
+	}
 }
 
 .paragraph {
@@ -50,6 +55,11 @@ body {
 	}
 
 	@include ipad-pro {
+		line-height: 30px;
+		font-size: 24px;
+	}
+
+	@include desktop {
 		line-height: 30px;
 		font-size: 24px;
 	}
