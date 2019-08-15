@@ -1,24 +1,12 @@
-// @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
-// @import url('https://fonts.googleapis.com/css?family=Rubik');
-
-// @import url('https://fonts.googleapis.com/css?family=Roboto');
-// @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
 
 // **** Fonts **** //
-// %anonymous-font {
-// 	font-family: 'Anonymous Pro', monospace;
-// }
 
 %font-heavy {
-	// font-family: 'Avenir Heavy', sans-serif;
-	// font-family: 'Montserrat', sans-serif;
 	font-family: 'Georgia', serif;
 	font-weight: bolder;
 }
 
 %font-light {
-	// font-family: 'Avenir Light', sans-serif;
-	// font-family: 'Roboto', sans-serif;
 	font-family: 'Arial', sans-serif;
 }
 
@@ -85,15 +73,3 @@ $desktop-l-width: 2560px; // 2560 - 1536
     	@content;
   	}
 }
-
-// @mixin desktop-m {
-// 	@media (min-width: 2160px) and (max-width: 2559px) {
-// 	  @content;
-// 	}
-// }
-
-// @mixin desktop-l {
-// 	@media (min-width: 2560px) {
-// 	  @content;
-// 	}
-// }

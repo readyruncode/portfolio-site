@@ -28,38 +28,12 @@
 	.about-icon {
 		margin-top: 30px;
 		margin-bottom: 50px;
-
-		// @include iphone-se {
-		// 	margin: 0px;
-		// }
-
-		// @include iphone {
-		// 	margin: 0px;
-		// 	margin-bottom: 15px;
-		// }
-
-		// @include iphone-plus {
-		// 	margin: 0px;
-		// 	margin-bottom: 15px;
-		// }
 	}
 
 	.about-text-header {
 		@extend %font-heavy;
 		color: $text-base-color;
 		font-size: 30px;
-
-		// @include iphone-se {
-		// 	font-size: 18px;
-		// }
-
-		// @include iphone {
-		// 	font-size: 20px;
-		// }
-
-		// @include iphone-plus {
-		// 	font-size: 22px;
-		// }
 
 		.primary-color {
 			color: $primary-color;
@@ -72,20 +46,5 @@
 		font-size: $main-body-size;
 		margin-bottom: 0px;
 		text-align: left;
-
-		// @include iphone-se {
-		// 	font-size: 12px;
-		// 	margin-bottom: 10px;
-		// }
-
-		// @include iphone {
-		// 	font-size: 14px;
-		// 	margin-bottom: 10px;
-		// }
-
-		// @include iphone-plus {
-		// 	font-size: 16px;
-		// 	margin-bottom: 10px;
-		// }
 	}
 }

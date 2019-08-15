@@ -76,9 +76,6 @@ export class ConsoleComponent implements OnInit {
 		this.displayCurrentContentWithHistory(outputString);
 	}
 
-	// outputString += 'My name is Henrik Forsberg. I build iOS apps and the frontend side of websites. ' +
-			// 'This little site is my attempt to show off what I\'ve done up until now while having fun at the same time.';
-
 	private buildInvalid(command) {
 		console.log('input', this.input);
 		this.setStatus(Status.Error, 500);
@@ -100,8 +97,6 @@ export class ConsoleComponent implements OnInit {
 		} else {
 			this.buildInvalid(firstArgument);
 		}
-		// portfolio. Apps, graphics
-		// pixel art
 	}
 
 	private handleInfo(inputArgs: string[]) {

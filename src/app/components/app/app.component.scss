@@ -9,22 +9,6 @@
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 100px;
-
-	// @include iphone-se {
-	// 	margin-bottom: 50px;
-	// }
-
-	// @include iphone {
-	// 	margin-bottom: 50px;
-	// }
-
-	// @include iphone-plus {
-	// 	margin-bottom: 50px;
-	// }
-
-	// @include ipad {
-	// 	margin-bottom: 0px;
-	// }
 }
 
 #start, #contact {
@@ -80,19 +64,4 @@ h1 {
 	a {
 		color: $primary-color;
 	}
-
-	// @include iphone-se {
-	// 	font-size: 10px;
-	// 	height: 50px;
-	// }
-
-	// @include iphone {
-	// 	font-size: 12px;
-	// 	height: 50px;
-	// }
-
-	// @include iphone-plus {
-	// 	font-size: 14px;
-	// 	height: 50px;
-	// }
 }

@@ -6,22 +6,6 @@
 	align-items: center;
 	background-color: $background-color;
 
-	// @include iphone-se {
-	// 	padding: 10px 5px 5px 5px;
-	// }
-
-	// @include iphone {
-	// 	padding: 10px 5px 5px 5px;
-	// }
-
-	// @include iphone-plus {
-	// 	padding: 10px 5px 5px 5px;
-	// }
-
-	// @include ipad {
-	// 	padding: 10px 5px 5px 5px;
-	// }
-
 	h1 {
 		@extend %zero-margin-zero-padding;
 		@extend %font-heavy;

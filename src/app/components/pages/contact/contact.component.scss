@@ -2,81 +2,16 @@
 
 .contact-container {
 	text-align: center;
-	// max-width: $standard-max-width;
 	margin: 0 auto;
-
-	// @include iphone-se {
-	// 	max-width: 280px;
-	// }
-
-	// @include iphone {
-	// 	max-width: 330px;
-	// }
-
-	// @include iphone-plus {
-	// 	max-width: 360px;
-	// }
-
-	// @include ipad {
-	// 	max-width: 700px;
-	// }
 
 	.contact-icon {
 		margin-top: 30px;
 		margin-bottom: 30px;
-
-		// @include iphone-se {
-		// 	margin: 0px;
-		// }
-
-		// @include iphone {
-		// 	margin: 0px;
-		// 	margin-bottom: 15px;
-		// }
-
-		// @include iphone-plus {
-		// 	margin: 0px;
-		// 	margin-bottom: 15px;
-		// }
 	}
 
 	.contact-text {
-		// color: $text-base-color;
-		// @extend %font-light;
-		// font-size: $main-body-size;
 		text-align: center;
 		margin-bottom: 60px;
-
-		// @include iphone-se {
-		// 	font-size: 12px;
-		// 	margin-bottom: 0px;
-		// }
-
-		// @include iphone {
-		// 	font-size: 14px;
-		// 	margin-top: 0px;
-		// 	margin-bottom: 0px;
-		// }
-
-		// @include iphone-plus {
-		// 	font-size: 16px;
-		// 	margin-top: 0px;
-		// 	margin-bottom: 0px;
-		// }
-	}
-
-	.contact-links {
-		// @include iphone-se {
-		// 	padding: 30px;
-		// }
-
-		// @include iphone {
-		// 	padding: 30px;
-		// }
-		
-		// @include iphone-plus {
-		// 	padding: 30px;
-		// }
 	}
 
 	.contact-social-media-icons {

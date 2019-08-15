@@ -33,14 +33,5 @@
 	.portfolio-card-container {
 		display: flex;
 		flex-flow: column;
-
-		// @include iphone-se {
-		// 	flex-flow: column;
-		// }
-
-		// @include iphone {
-		// 	flex-flow: column;
-		// }
 	}
 }
-
