@@ -20,7 +20,7 @@
 		margin-bottom: 0px;
 	}
 
-	.portfolio-card-image-container {
+	.project-card-image-container {
 		width: 35%;
 		padding-right: 60px;
 
@@ -48,7 +48,7 @@
 		}
 	}
 
-	.portfolio-card-content {
+	.project-card-content {
 		width: 65%;
 
 		@include iphone-se {
@@ -63,7 +63,7 @@
 			width: 100%;
 		}
 
-		.portfolio-card-title {
+		.project-card-title {
 			width: 100%;
 			@extend %font-heavy;
 			color: $primary-color;
@@ -94,7 +94,7 @@
 			}
 		}
 
-		.portfolio-card-description {
+		.project-card-description {
 			width: 100%;
 			text-align: left;
 
@@ -157,7 +157,7 @@
 			}
 		}
 
-		.portfolio-card-app-store-badges {
+		.project-card-app-store-badges {
 			width: 100%;
 			display: flex;
 			flex-wrap: wrap;

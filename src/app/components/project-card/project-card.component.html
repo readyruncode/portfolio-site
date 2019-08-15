@@ -1,12 +1,12 @@
 <div [ngClass]="{ 'no-bottom-margin': isLast }" class="project-card-container">
-	<div class="portfolio-card-image-container">
+	<div class="project-card-image-container">
 		<img src="assets/screenshots/{{project.screenshotUrl}}" />
 	</div>
-	<div class="portfolio-card-content">
-		<div class="portfolio-card-title">
+	<div class="project-card-content">
+		<div class="project-card-title">
 			{{project.title}}
 		</div>
-		<div class="portfolio-card-description">
+		<div class="project-card-description">
 			<p class="paragraph">
 				{{project.description}}
 			</p>
@@ -25,8 +25,7 @@
 					{{link.title}}
 				</a>
 			</div>
-			<!-- <h4 class="downloads-header">Downloads</h4> -->
-			<div class="portfolio-card-app-store-badges">
+			<div class="project-card-app-store-badges">
 				<div *ngFor="let badge of project.appStoreBadges" class="app-store-badge-container">
 					<a href="{{badge.url}}" target="_blank">
 						<img src="assets/icons/app-store-badge-ios.svg" />
