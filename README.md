@@ -1,4 +1,6 @@
+<p align="center">
 <a href="mailto:henrikforsberg.dev@gmail.com"><img src="https://img.shields.io/badge/Email-henrik-8056d5.svg?style=for-the-badge&logo=minutemailer&logoColor=white"></a>&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/henrik-forsberg" target="_blank"><img src="https://img.shields.io/badge/linkedin-henrik-brightgreen.svg?style=for-the-badge&logo=linkedin&logoColor=white" ></a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/readyruncode" target="_blank"><img src="https://img.shields.io/badge/twitter-readyruncode-blue.svg?style=for-the-badge&logo=twitter&logoColor=white"></a>
+</p>
 
 <p align="center">
 <img src="assets/screenshots/portfolio-site.gif">
