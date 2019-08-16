@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<img src="assets/screenshots/portfolio-site.gif">
+<img src="src/assets/screenshots/portfolio-site.gif">
 </p>
 
 # Portfolio site
